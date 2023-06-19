@@ -1,5 +1,6 @@
 import * as React from 'react';
 import './style.css';
+import Header from "./Header"
 
 export default function App() {
   return (
@@ -28,22 +29,7 @@ function MainContent() {
   )
 }
 
-function Header() {
-  return (
-      <header>
-          <nav className = "nav">
-          <ul className="nav-items">
-            <img src = "./react-logo.png" className ="nav-logo"/>
-                    <li>Pricing</li>
-                    <li>About</li>
-                    <li>Contact</li>
-                </ul>
-             
-              
-          </nav>
-      </header>
-  )
-}
+
 
 
 
